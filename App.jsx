@@ -11,11 +11,6 @@ function App() {
       Orientation.unlockAllOrientations();
     };
   }, []);
-  
-  const [showMainMenu, setShowMainMenu] = useState(true);
-  // const [showSettings, setShowSettings] = useState(false);
-
-
 
   return (
     <SafeAreaView style={styles.container}>
