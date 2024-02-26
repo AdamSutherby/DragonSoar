@@ -1,7 +1,6 @@
 import react, { useEffect, useState } from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import Orientation from 'react-native-orientation-locker';
-import MainMenu from './components/MainMenu';
 import Game from './components/Game';
 
 function App() {
